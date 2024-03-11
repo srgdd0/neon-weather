@@ -5,6 +5,59 @@
   user-select: none;
 }
 
+#changeCity {
+  display: none;
+  width: 120px;
+  height: 40px;
+  font-size: 1em;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  background: hsla(0, 100%, 100%, .1);
+}
+
+#changeCity:hover {
+  cursor: pointer;
+  background: hsla(0, 100%, 100%, .3);
+}
+
+#changeCity:focus {
+  background: hsla(0, 100%, 100%, .2);
+}
+
+main {
+  display: none;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 70px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 25px;
+  color: #fff;
+  background: hsla(0, 100%, 100%, .1);
+  border: none;
+}
+
+button#send {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  background: hsla(0, 100%, 100%, .1);
+}
+
+button#send:hover {
+  cursor: pointer;
+  background: hsla(0, 100%, 100%, .3);
+}
+
+button#send:focus {
+  background: hsla(0, 100%, 100%, .2);
+}
+
 #app {
   width: 100%;
   height: 100dvh;

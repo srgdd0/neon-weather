@@ -13,29 +13,36 @@
   <div id="app">
     <header>
       <div class="container">
-        <h1 class="title">Neon Weather</h1>
+        <div class="wrap">
+          <h1 class="title">Neon Weather</h1>
+          <button id="changeCity">change city</button>
+        </div>
       </div>
     </header>
+    <div id="search">
+      <input placeholder="enter the name of the city. e.g. Kokkola" id="enterCity" type="text">
+      <button id="send">GO</button>
+    </div>
     <main>
       <div class="container">
         <div class="main-info">
           <div class="city-info">
             <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" alt="" class="icon">
             <h2 class="temperature"></h2>
-            <h3 id="feels_like">feels like</h3>
+            <h3 id="feels_like"></h3>
             <p class="weather-description"></p>
           </div>
           <div class="city-info">
             <img
               src="https://cdn.icon-icons.com/icons2/3192/PNG/512/temperature_thermometer_cold_warm_hot_icon_194270.png"
               alt="" class="icon">
-            <h3 id="max">Max: </h3>
-            <h3 id="min">Min: </h3>
+            <h3 id="max"></h3>
+            <h3 id="min"></h3>
           </div>
           <div class="city-info">
             <img src="https://www.freeiconspng.com/thumbs/sun-icon/sun-icon-31.png" alt="" class="icon">
-            <h3 id="sunrise">sunrise: </h3>
-            <h3 id="sunset">sunset: </h3>
+            <h3 id="sunrise"></h3>
+            <h3 id="sunset"></h3>
           </div>
           <div class="city">
             <img src="https://cdn-icons-png.flaticon.com/512/3253/3253488.png" alt="" class="icon">
@@ -57,34 +64,35 @@
         </div>
         <div class="cards">
           <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" alt="" class="icon">
-            <h2 class="temperature">21°C</h2>
-            <p class="weather-description">Mostly cloudy</p>
+            <img src="https://cdn-icons-png.freepik.com/256/561/561237.png" alt="" class="icon">
+            <h2 id="coords" class="temperature">coords</h2>
+            <p id="lat" class="weather-description">lat: </p>
+            <p id="lon" class="weather-description">lon: </p>
           </div>
           <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" alt="" class="icon">
-            <h2 class="temperature">21°C</h2>
-            <p class="weather-description">Mostly cloudy</p>
+            <img src="https://cdn-icons-png.freepik.com/256/4830/4830735.png" alt="" class="icon">
+            <h2 id="country" class="temperature">country</h2>
+            <p id="countryCode" class="weather-description">Mostly cloudy</p>
           </div>
           <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" alt="" class="icon">
-            <h2 class="temperature">21°C</h2>
-            <p class="weather-description">Mostly cloudy</p>
+            <img src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/speedometer-512.png" alt="" class="icon">
+            <h2 class="temperature">pressure</h2>
+            <p id="pressure" class="weather-description"></p>
           </div>
           <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" alt="" class="icon">
-            <h2 class="temperature">21°C</h2>
-            <p class="weather-description">Mostly cloudy</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/1455/1455306.png" alt="" class="icon">
+            <h2 class="temperature">timezone</h2>
+            <p id="timezone" class="weather-description"></p>
           </div>
           <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" alt="" class="icon">
-            <h2 class="temperature">21°C</h2>
-            <p class="weather-description">Mostly cloudy</p>
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-code-280-460136.png" alt="" class="icon">
+            <h2 class="temperature">cod</h2>
+            <p id="cod" class="weather-description">Mostly cloudy</p>
           </div>
           <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png" alt="" class="icon">
-            <h2 class="temperature">21°C</h2>
-            <p class="weather-description">Mostly cloudy</p>
+            <img src="https://www.shareicon.net/data/2016/06/09/585404_id_512x512.png" alt="" class="icon">
+            <h2 class="temperature">id</h2>
+            <p id="id" class="weather-description">Mostly cloudy</p>
           </div>
         </div>
       </div>
