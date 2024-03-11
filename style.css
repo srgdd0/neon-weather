@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+#app {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: #fafafa;
+  background: linear-gradient(140deg, hsl(251, 91%, 8%), hsl(251, 96%, 21%));
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.container {
+  width: 1280px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background: hsla(0, 100%, 100%, .1);
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.city-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.city h2,
+.city-info h2 {
+  font-size: 2em;
+}
+
+.city a {
+  display: block;
+  text-decoration: none;
+  padding: 8px 12px;
+  color: #fafafa;
+  border: 2px solid #a7a7a7;
+  border-radius: 25px;
+  transition: all.245s ease;
+}
+
+.city a:hover {
+  color: #333;
+  background: hsl(0, 100%, 100%);
+  border: 3px solid #333;
+}
+
+.wind-humidity {
+  display: flex;
+}
+
+.wrap {
+  width: 100%;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.wind-info,
+.humidity-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+  height: 200px;
+  background: hsla(0, 100%, 100%, .1);
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 25px;
+  background: hsla(0, 100%, 100%, .1);
+}
+
+.weather-description {
+  color: #a7a7a7;
+}
+
+.icon {
+  width: 60px;
+}
+
+a.author {
+  color: #c4c4c4;
+}
